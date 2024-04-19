@@ -1074,6 +1074,12 @@ __metadata:
 "test-dependabot-not-updating-yarn@workspace:.":
   version: 0.0.0-use.local
   resolution: "test-dependabot-not-updating-yarn@workspace:."
+  languageName: unknown
+  linkType: soft
+
+"test@workspace:packages/test":
+  version: 0.0.0-use.local
+  resolution: "test@workspace:packages/test"
   dependencies:
     vite: 4.5.2
   languageName: unknown
